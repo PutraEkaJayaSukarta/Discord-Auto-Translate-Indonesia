@@ -1,0 +1,12 @@
+{
+  "name": "key-intercept-discord-translator",
+  "private": true,
+  "description": "Key-Intercept community modification with optional Indonesian-English translation.",
+  "scripts": {
+    "translator": "node translator-server.js",
+    "check:translator": "node --check translator-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
